@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StarSucks</string>
+    <string name="order_now_label">Order Now</string>
+    <string name="prompt_name">You Are?</string>
+    <string name="prompt_cell">Your number?</string>
+    <string name="You_ordered_label">You ordered</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
