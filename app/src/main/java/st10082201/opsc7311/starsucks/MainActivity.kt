@@ -42,9 +42,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
 
         Toast.makeText(this@MainActivity, "MMM " + order.productName, Toast.LENGTH_LONG).show()
-        openIntent(applicationContext, order.productName, OrderDetailsActivity::class.java
+        openIntent(applicationContext, order.productName, OrderDetailsActivity::class.java)
 
-        TODO("Not yet implemented")
+
     }
     //------------------------------------------------------------------------------------------------------------------------------
 

@@ -6,15 +6,16 @@ class Order {
     lateinit var customerCell: String
     lateinit var orderDate: String
 
+    // primary constructor
+    constructor()
 
     // secondary constructor
-    constructor(pName: String) : this(){
+    constructor(pName: String) : this() {
         productName = pName
     }
 
-
-    //secondary constructor
-    constructor(pName: String, cName : String, cCell: String, oDate: String) : this(pName){
+    // secondary constructor
+    constructor(pName: String, cName: String, cCell: String, oDate: String) : this(pName) {
         customerName = cName
         customerCell = cCell
         orderDate = oDate
@@ -22,6 +23,5 @@ class Order {
 
 
 
-
-}//End of class
+}//End of Class
 //------------------------------------------oooo0000End of File0000oooo--------------------------------------------------
